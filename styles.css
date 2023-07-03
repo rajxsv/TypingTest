@@ -1,0 +1,32 @@
+.container1{
+    margin-top: 150px;
+    padding: 10px;
+    width: min-content;
+    height: min-content;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    display: flex;
+    margin-top: 25px;
+}
+.Result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
